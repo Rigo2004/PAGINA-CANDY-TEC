@@ -208,3 +208,14 @@ form {
   #carrito button:hover {
   background-color: #ff7a7a;
   }
+
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f1f1f1;
+}
+
+/* Agrega más estilos para el modo oscuro aquí */
