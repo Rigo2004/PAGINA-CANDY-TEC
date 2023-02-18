@@ -1,3 +1,12 @@
+const darkModeToggle = document.querySelector('#dark-mode-toggle');
+const body = document.querySelector('body');
+
+darkModeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
+
+
+
 // Define el carrito como un arreglo vacío
 var carrito = [];
 
