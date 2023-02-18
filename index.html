@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CANDY TEC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>CANDY TEC</h1>
+      <nav>
+        <ul class="datos">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#carrito">Carrito de compras</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio">
+        <h2>Bienvenidos a la CANDY TEC</h2>
+        <p>Ofrecemos una amplia selección de dulces y postres para satisfacer tus antojos de azúcar y a nuestros estudientes con diabetes.</p>
+      </section>
+      <section id="productos">
+        <h2>Nuestros productos</h2>
+        <ul>
+          <li >
+            <img src="img/chocolates.jpg" 
+               alt="Chocolate" class="img-dulces">
+            <h3>Chocolate</h3>
+            <p>Delicioso chocolate hecho con los mejores ingredientes.</p>
+            <button id="1214" onclick="addToCart('chocolate')">Agregar al carrito</button>
+          </li>
+          </li>
+          <li>
+            <img src="img/cupcakes.jpg"
+               alt="cupcakes" class="img-dulces">
+            <h3>cupcakes</h3>
+            <p>Deliciosos cupcakes de varios sabores, perfectos para cualquier ocasión. Nuestros cupcakes son horneados con ingredientes de alta calidad y decorados a mano con hermosos diseños y colores vibrantes. Ofrecemos cupcakes de vainilla, chocolate, frutos rojos, limón, entre otros. ¡Pruébalos todos!.</p>
+            <button id="1212" onclick="addToCart('cupcakes')">Agregar al carrito</button>
+          </li>
+          <li>
+            <img src="img/FRUTITA PA.png"
+            alt="cupcakes" class="img-dulces">
+            <h3>fruta en vaso</h3>
+            <p>fruta y ya nada saludable </p>
+            <button id="1213" onclick="addToCart('fruta')">Agregar al carrito</button>
+          </li>
+        </ul>
+      </section>
+      <div id="carrito">
+        <h2>Carrito de compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: <span id="total-carrito">$0</span></p>
+      </div>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para hacer un pedido o para cualquier pregunta que tengas sobre nuestros productos!</p>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea><br>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+      <section id="carrito">
+        <h2>Carrito de compras</h2>
+        <p>Aquí se mostrarán los productos que añadas a tu carrito de compras.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,210 @@
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Estilos para el encabezado de la página */
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.datos{
+  justify-content: flex-end;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #ff5e5e;
+}
+.img-dulces{
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+}
+
+
+/* Estilos para la sección de inicio */
+#inicio {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#inicio h2 {
+  padding: 20px;
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+#inicio p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+#productos h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+#productos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#productos li {
+  width: 30%;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#productos li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#productos h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+#productos p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#contacto h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+#contacto p {
+  font-size: 20px;
+  margin: 0 0 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  form input[type=text], form input[type=email], form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  }
+  
+  form input[type=submit] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5e5e;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  }
+  
+  form input[type=submit]:hover {
+  background-color: #ff7a7a;
+  }
+  
+  /* Estilos para el carrito de compras */
+  #carrito {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #carrito h3 {
+  font-size: 20px;
+  margin: 0;
+  }
+  
+  #carrito ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  }
+  
+  #carrito li {
+  margin-bottom: 10px;
+  }
+  
+  #carrito p {
+  font-size: 16px;
+  margin: 0;
+  }
+  
+  #carrito button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5e5e;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  }
+  
+  #carrito button:hover {
+  background-color: #ff7a7a;
+  }
